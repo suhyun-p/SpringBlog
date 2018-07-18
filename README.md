@@ -16,3 +16,7 @@ Spring Boot 와 Spring Data (JPA) 를 이용한 간단한 DB 입출력
 ### Blog_Develop_04
 http://millky.com/@origoni/post/1144  
 스프링 부트(Spring Boot)의 세가지 뷰 (JSP, Velocity, Thymeleaf)
+
+### Blog_Develop_06
+http://millky.com/@origoni/post/1147  
+webjars를 이용한 bootstrap, jquery 적용해보기 (Spring Boot)
