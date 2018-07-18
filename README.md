@@ -20,3 +20,7 @@ http://millky.com/@origoni/post/1144
 ### Blog_Develop_06
 http://millky.com/@origoni/post/1147  
 webjars를 이용한 bootstrap, jquery 적용해보기 (Spring Boot)
+
+### Blog_Develop_07
+http://millky.com/@origoni/post/1152  
+Blog theme 적용해보기 (+bower, +webjars)
