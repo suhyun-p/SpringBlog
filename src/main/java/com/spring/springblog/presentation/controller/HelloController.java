@@ -6,9 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class HelloController {
-    @RequestMapping("/hello")
+    @RequestMapping({"/", "/hello"})
     public String index(Model model){
         model.addAttribute("name", "SpringBlog From Suhpark");
         return "hello";
+    }
+
+    @RequestMapping({ "/blog" })
+    public String blog(Model model) {
+        return "blog";
     }
 }
