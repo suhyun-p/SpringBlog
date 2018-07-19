@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: local # 기본 환경 선택
+
+# local 환경
+---
+spring:
+  profiles: local
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url : jdbc:h2:tcp://localhost/~/testdb
+    username: sa
+    password :
+    initialization-mode: always
+  h2:
+    console:
+      enabled: true
